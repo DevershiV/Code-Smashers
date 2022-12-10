@@ -35,4 +35,4 @@ Initial Requirements:
 7.	Adding the data to a text file
 8.	UI component with upload and download buttons
 9.	Deploy the components
-Accepted extensions of files are .rar, .zip, and gz.tar, solution size will be maximum 500MB
+- Accepted extensions of files are .rar, .zip, and gz.tar, solution size will be maximum 500MB
