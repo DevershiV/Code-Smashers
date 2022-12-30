@@ -99,11 +99,11 @@ button.css-9s5bis.edgvbvh3:focus{
     position: relative;
     top: 100px;
 } */
-[data-testid="stHeader"] {
-    background-image: url("https://i.postimg.cc/mcgHp2Mw/Novacept-Final-logo-01.png");
+/* [data-testid="stHeader"] {
+    background-image: url("./Novaceptlogo.png");
     background-repeat: no-repeat;
     background-position: 57px -65px;
-}
+} */
 
 button.step-down.css-1r8izn3.e1jwn65y1:hover{
     background-color: var(--primary);
