@@ -1,6 +1,7 @@
 :root {
-    --primary: #561f76;
+    --primary: #4a454d;
     --white: #ffffff;
+    --text:#ffffff;
 }
 @font-face {
     font-family:"NovaBotFont";
@@ -16,7 +17,7 @@ span.css-pkbazv.e1fqkh3o5{
 span.css-10trblm.e16nr0p30{
     font-family: "Helvetica", Sans-serif;
     font-size: 30px;
-    color: var(--primary);
+    color: var(--text);
 }
 section.css-163ttbj.e1fqkh3o11{
     background-color: var(--primary);
@@ -82,7 +83,7 @@ button.css-9s5bis.edgvbvh3:focus{
 
 [data-testid|="stHeader"]{
     background-color: var(--primary);
-    height: 3rem; 
+    height: 5rem; 
 }
 
 [data-testid="stSidebarNav"] {
@@ -99,26 +100,72 @@ button.css-9s5bis.edgvbvh3:focus{
     position: relative;
     top: 100px;
 } */
-/* [data-testid="stHeader"] {
-    background-image: url("./Novaceptlogo.png");
+[data-testid="stHeader"] {
+    background-image: url(https://i.postimg.cc/xqVfJ7wc/SR2-0.png);
     background-repeat: no-repeat;
-    background-position: 57px -65px;
-} */
-
+    background-position: 46px 7px;
+    background-size: 15rem;
+} 
 button.step-down.css-1r8izn3.e1jwn65y1:hover{
     background-color: var(--primary);
 }
 button.step-up.css-1r8izn3.e1jwn65y1:hover{
     background-color: var(--primary);
 }
-
+[data-testid="stToolbar"]{
+    display: none; 
+}
 label.css-81oif8.effi0qh3{
     background: white;
     padding: 5px;
     border-radius: 5px;
 }
 
+.css-1dp5vir{
+    width: 20rem;
+    top: 18px;
+    left: 341px;
+    background-image: url("https://i.postimg.cc/xCxWw9WV/azam.png");
+    background-repeat: no-repeat;
+    background-size: 15rem; 
+    height: 3.125rem; 
+}
+.appview-container{
+    background-image: url("https://i.postimg.cc/Nfkyh4yd/army.png");
+    background-repeat: no-repeat;
+    /* background-position: 46px 7px; */
+    background-size: 88rem;
+    /* opacity: 0.9; */
+    left: -1rem;
+}
+.stDownloadButton,.stButton{
+    margin-top: 1.2rem;
+}
 
+.css-1rrbo1k {
+    width: calc(42.8571% - 1rem);
+    flex: 0 8 calc(32.8571% - 1rem);
+}
+.css-1rrbo1k{
+    text-align: center;
+}
+.css-m9mqwd{
+    text-align: center;
+}
+.css-r786ae{
+    text-align: center;
+}
+.css-zt5igj{
+    text-align: center;
+}
+.css-ocqkz7{
+    margin-left:4rem;
+    margin-top: 11rem;
+}
+/* [data-testid="stVerticalBlock"]{
+    margin-left: 9rem;
+    margin-top: 0.2rem;
+} */
 @media (max-width: 612px) {
     [data-testid|="stSidebar"]{
         background-color: var(--primary);
